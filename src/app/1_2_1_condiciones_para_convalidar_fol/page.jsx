@@ -27,80 +27,6 @@ export default function Home() {
         <ItemLista interior={true}><b>Tener aprobado el módulo de FOL en un Ciclo LOGSE de Grado Superior (Ley Orgánica 1/1990, de 3 de octubre).</b></ItemLista>
 
 
-        {/* <table className="self-center">
-
-        <tr> 
-          <th>Módulo a convalidar</th> 
-          <th>Formación a aportar</th> 
-        </tr> 
-        
-        <tr> 
-          <td>FOL GM (LOGSE Ley Orgánica 1/1990, de 3 de octubre)</td> 
-          <td>FOL GM LOGSE</td> </tr> <tr> <td></td> <td>FOL GS LOGSE</td> 
-        </tr> 
-        
-        <tr> 
-          <td></td> 
-          <td>FOL GM LOE</td> 
-        </tr> 
-        
-        <tr> 
-          <td></td> 
-          <td>FOL GS LOE</td> 
-        </tr> 
-        
-        <tr> 
-          <td>FOL GS (LOGSE Ley Orgánica 1/1990, de 3 de octubre)</td> 
-          <td>FOL GS LOGSE</td> </tr> <tr> <td></td> <td>FOL GM LOE</td> 
-        </tr> 
-        
-        <tr> 
-          <td></td> 
-          <td>FOL GS LOE</td> 
-        </tr> 
-        
-        <tr> 
-          <td>FOL GM (LOE Ley Orgánica 2/2006, de 3 de mayo)</td> 
-          <td>FOL GM LOGSE + Certificado nivel básico actividad preventiva</td> 
-        </tr> 
-        
-        <tr> 
-          <td></td> 
-          <td>FOL GS LOGSE + Certificado nivel básico actividad preventiva</td> 
-        </tr> 
-        
-        <tr> 
-          <td></td> 
-          <td>Título Técnico Superior en Prevención de Riesgos Profesionales</td> 
-        </tr> 
-        
-        <tr> 
-          <td>FOL GS (LOE Ley Orgánica 2/2006, de 3 de mayo)</td> 
-          <td>FOL GM LOE</td> 
-        </tr> 
-        
-        <tr> 
-          <td></td> 
-          <td>FOL GS LOE</td> 
-        </tr> 
-        
-        <tr> 
-          <td></td> 
-          <td>FOL GM LOGSE + Certificado nivel básico actividad preventiva</td> 
-        </tr> 
-        
-        <tr> 
-          <td></td> 
-          <td>FOL GS LOGSE + Certificado nivel básico actividad preventiva</td> 
-        </tr> 
-        
-        <tr> 
-          <td></td> 
-          <td>Título Técnico Superior en Prevención de Riesgos Profesionales</td> 
-        </tr>
-
-        </table> */}
-
         <table className="w-[100%] lg:w-[80%] self-center border-separate">
           <tbody>
             <tr>
@@ -108,16 +34,19 @@ export default function Home() {
               <th className="border-2 border-blue-200 p-4 text-center bg-blue-200">Formación a aportar</th>
             </tr>
             <tr>
-              <th className="border-2 border-blue-200 p-4 text-center bg-blue-200">FOL GM (LOGSE Ley Orgánica 1/1990, de 3 de octubre)</th>
+              <th className="border-2 border-blue-200 p-4 text-center bg-blue-200 row-span-5">FOL GM (LOGSE Ley Orgánica 1/1990, de 3 de octubre)</th>
               <td className="border-2 border-blue-200 p-4">FOL GM LOGSE</td>
             </tr>
             <tr>
+            <th className="border-2 border-blue-200 p-4 text-center bg-blue-200"></th>
               <td className="border-2 border-blue-200 p-4">FOL GS LOGSE</td>
             </tr>
             <tr>
+            <th className="border-2 border-blue-200 p-4 text-center bg-blue-200"></th>
               <td className="border-2 border-blue-200 p-4">FOL GM LOE</td>
             </tr>
             <tr>
+            <th className="border-2 border-blue-200 p-4 text-center bg-blue-200"></th>
               <td className="border-2 border-blue-200 p-4">FOL GS LOE</td>
             </tr>
             <tr>
@@ -125,35 +54,43 @@ export default function Home() {
               <td className="border-2 border-blue-200 p-4">FOL GS LOGSE</td>
             </tr>
             <tr>
-              <th className="border-2 border-blue-200 p-4 text-center bg-blue-200">FOL GM (LOE Ley Orgánica 2/2006, de 3 de mayo)</th>
+              <th className="border-2 border-blue-200 p-4 text-center bg-blue-200 row-span-6">FOL GM (LOE Ley Orgánica 2/2006, de 3 de mayo)</th>
               <td className="border-2 border-blue-200 p-4">FOL GM LOE</td>
             </tr>
             <tr>
+            <th className="border-2 border-blue-200 p-4 text-center bg-blue-200"></th>
               <td className="border-2 border-blue-200 p-4">FOL GS LOE</td>
             </tr>
             <tr>
+            <th className="border-2 border-blue-200 p-4 text-center bg-blue-200"></th>
               <td className="border-2 border-blue-200 p-4">FOL GM LOGSE + Certificado nivel básico actividad preventiva</td>
             </tr>
             <tr>
+            <th className="border-2 border-blue-200 p-4 text-center bg-blue-200"></th>
               <td className="border-2 border-blue-200 p-4">FOL GS LOGSE + Certificado nivel básico actividad preventiva</td>
             </tr>
             <tr>
+            <th className="border-2 border-blue-200 p-4 text-center bg-blue-200"></th>
               <td className="border-2 border-blue-200 p-4">Título Técnico Superior en Prevención de Riesgos Profesionales</td>
             </tr>
             <tr>
-              <th className="border-2 border-blue-200 p-4 text-center bg-blue-200">FOL GS (LOE Ley Orgánica 2/2006, de 3 de mayo)</th>
+              <th className="border-2 border-blue-200 p-4 text-center bg-blue-200 row-span-6">FOL GS (LOE Ley Orgánica 2/2006, de 3 de mayo)</th>
               <td className="border-2 border-blue-200 p-4">FOL GM LOE</td>
             </tr>
             <tr>
+            <th className="border-2 border-blue-200 p-4 text-center bg-blue-200"></th>
               <td className="border-2 border-blue-200 p-4">FOL GS LOE</td>
             </tr>
             <tr>
+            <th className="border-2 border-blue-200 p-4 text-center bg-blue-200"></th>
               <td className="border-2 border-blue-200 p-4">FOL GM LOGSE + Certificado nivel básico actividad preventiva</td>
             </tr>
             <tr>
+            <th className="border-2 border-blue-200 p-4 text-center bg-blue-200"></th>
               <td className="border-2 border-blue-200 p-4">FOL GS LOGSE + Certificado nivel básico actividad preventiva</td>
             </tr>
             <tr>
+            <th className="border-2 border-blue-200 p-4 text-center bg-blue-200"></th>
               <td className="border-2 border-blue-200 p-4">Título Técnico Superior en Prevención de Riesgos Profesionales</td>
             </tr>
           </tbody>
