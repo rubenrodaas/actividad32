@@ -14,6 +14,8 @@ export default function Home() {
 
       <div className="flex flex-col gap-4">
 
+        <p>El módulo profesional de Proyecto correspondiente a títulos de Formación profesional de grado superior no podrá ser objeto de convalidación ni de exención en ningún caso.</p>
+
       </div>
     </>
   );

@@ -14,6 +14,9 @@ export default function Home() {
 
       <div className="flex flex-col gap-4">
 
+        <p>El módulo profesional de <b>Horas de Libre Configuración no puede ser objeto de convalidación</b></p>
+        <p>Este módulo profesional no se evalúa de manera independiente al estar asociado a otro módulo profesional a efectos de evaluación. Cuando un alumno o alumna obtiene la convalidación de este otro módulo profesional (o lo haya superado con anterioridad), queda exento de cursar el de Horas de Libre Configuración.</p>
+
       </div>
     </>
   );

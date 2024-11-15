@@ -14,6 +14,8 @@ export default function Home() {
 
       <div className="flex flex-col gap-4">
 
+      <p>Para poder convalidar el módulo de Segunda Lengua Extranjera debe aportarse siempre estudios cursados y superados en la misma lengua que se desee convalidar. Es necesario acreditar alguna de las siguientes condiciones:</p>
+
       </div>
     </>
   );

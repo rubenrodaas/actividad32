@@ -14,6 +14,8 @@ export default function Home() {
 
       <div className="flex flex-col gap-4">
 
+      <p>La documentación a aportar varía en función del módulo Inglés que se desee convalidar. Siempre deben ser estudios cursados y superados de lengua inglesa.</p>
+
       </div>
     </>
   );
